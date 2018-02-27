@@ -15,6 +15,7 @@
 * Option to encrypt the TOTP secret in the database, with iv and salt
 ## Added by me
 * Option to allow user to either request new code each time he logs in or save until 2fa expired.
+* Rails 3.x support.
 
 ## Configuration
 
@@ -22,7 +23,7 @@
 
 In a Rails environment, require the gem in your Gemfile:
 
-    gem 'two_factor_authentication'
+    gem 'two_factor_authentication', github: 'avdept/two_factor_authentication'
 
 Once that's done, run:
 
