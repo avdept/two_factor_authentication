@@ -1,11 +1,9 @@
 # Two factor authentication for Devise
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Houdini/two_factor_authentication?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/avdept/two_factor_authentication.svg?branch=master)](https://travis-ci.org/Houdini/two_factor_authentication)
+[![Code Climate](https://codeclimate.com/github/avdept/two_factor_authentication.svg)](https://codeclimate.com/github/Houdini/two_factor_authentication)
 
-[![Build Status](https://travis-ci.org/Houdini/two_factor_authentication.svg?branch=master)](https://travis-ci.org/Houdini/two_factor_authentication)
-[![Code Climate](https://codeclimate.com/github/Houdini/two_factor_authentication.svg)](https://codeclimate.com/github/Houdini/two_factor_authentication)
-
-## Features
+## Original Features
 
 * Support for 2 types of OTP codes
  1. Codes delivered directly to the user
@@ -15,6 +13,8 @@
 * Customizable logic to determine if a user needs two factor authentication
 * Configurable period where users won't be asked for 2FA again
 * Option to encrypt the TOTP secret in the database, with iv and salt
+## Added by me
+* Option to allow user to either request new code each time he logs in or save until 2fa expired.
 
 ## Configuration
 
