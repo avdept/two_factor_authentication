@@ -1,7 +1,7 @@
 # Two factor authentication for Devise
 
-[![Build Status](https://travis-ci.org/avdept/two_factor_authentication.svg?branch=master)](https://travis-ci.org/Houdini/two_factor_authentication)
-[![Code Climate](https://codeclimate.com/github/avdept/two_factor_authentication.svg)](https://codeclimate.com/github/Houdini/two_factor_authentication)
+[![Build Status](https://travis-ci.org/avdept/two_factor_authentication.svg?branch=master)](https://travis-ci.org/avdept/two_factor_authentication)
+[![Code Climate](https://codeclimate.com/github/avdept/two_factor_authentication.svg)](https://codeclimate.com/github/avdept/two_factor_authentication)
 
 ## Original Features
 
